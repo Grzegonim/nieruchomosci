@@ -1,0 +1,39 @@
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+
+  h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #9DB2BF;
+  }
+
+  & > p {
+    padding: 0 10px;
+  }
+
+  .icon-container {
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 20px;
+    } 
+
+    .icon {
+      svg {
+        color: #526D82;
+        font-size: 100px;
+        transition: all 0.3s ease;
+      }
+
+      &:hover {
+        cursor: pointer;
+        svg {
+          color: #27374D;
+          filter: drop-shadow(0 0 0.2rem #526D82);
+        }
+      }
+    }
+  }
+}
