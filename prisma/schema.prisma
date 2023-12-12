@@ -24,6 +24,7 @@ model Offer {
   year        Int
   garage      Boolean
   basement    Boolean
+  //location    String
   photos      Photo[]
 }
 

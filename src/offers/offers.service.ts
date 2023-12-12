@@ -23,6 +23,42 @@ export class OffersService {
     });
   }
 
+  public getByParams(
+    priceMin: Offer['price'],
+    priceMax: Offer['price'],
+    floorMin: Offer['floor'],
+    floorMax: Offer['floor'], 
+    roomsMin: Offer['rooms'],
+    roomsMax: Offer['rooms'],
+    surfaceMin: Offer['surface'],
+    surfaceMax: Offer['surface'], 
+    location
+      ): Promise<Offer[] | null> {
+    return this.prismaService.offer.findMany({
+      where: {
+        floor: {
+          gte: floorMin,
+          lte: floorMax
+        },
+        price: {
+          gte: priceMin,
+          lte: priceMax
+        },
+        rooms: {
+          gte: roomsMin,
+          lte: roomsMax
+        },
+        surface: {
+          gte: surfaceMin,
+          lte: surfaceMax
+        },
+       },
+      include: {
+        photos: true
+      }
+    });
+  }
+
   public create(offerData: Omit<Offer, 'id'>): Promise<Offer> {
     return this.prismaService.offer.create({
       data: offerData,

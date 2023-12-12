@@ -20,6 +20,23 @@ export const uploadOffers = () => {
   }
 };
 
+export const addOffer = (formData, imagesData) => {
+  return async (dispatch) => {
+    try {
+      const res = await axios.post(`${API_URL}/offers`, formData);
+      console.log(res.data.id);
+      await axios.post(`${API_URL}/offers/upload/${res.data.id}`, imagesData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+        }
+      });
+    }
+    catch (err) {
+      console.log(err);  
+    }
+  }
+};
+
 
 const offersReducer = (statePart = initialState, action) => {
   switch (action.type) {

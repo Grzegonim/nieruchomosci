@@ -10,8 +10,10 @@ const Description = () => {
   const navigate = useNavigate();
   return (
     <Container className={styles["container"]}>
-      <h2>Lorem Ipsum</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in suscipit urna. Proin cursus diam ac turpis tristique, vel vestibulum turpis pellentesque. In in ante venenatis, facilisis eros sed, imperdiet sem. Fusce nec dui nec erat rutrum lobortis. Ut rutrum rhoncus ex aliquam faucibus. Aenean quis risus cursus elit egestas tristique. Aliquam mi arcu, pretium eget eros id, sodales commodo ligula. Donec molestie ipsum a eros sodales lobortis. Pellentesque turpis magna, dapibus vel enim laoreet, vehicula rutrum quam.</p>
+      <h2>MW - NIERUCHOMOŚCI</h2>
+      <p>
+      Jesteśmy licencjonowanymi pośrednikami w obrocie nieruchomościami. Posiadamy wykształcenie z dziedziny geodezji oraz finansów, poparte wieloletnim doświadczeniem zawodowym. Dlatego powierzając nam swoje sprawy, możecie być Państwo pewni najwyższej jakości świadczonych usług, a przede wszystkim bezpieczeństwa, które gwarantuje znajomość aktualnie obowiązujących przepisów prawa. Z uwagi na naszą specjalistyczną wiedzę, możemy Państwa kompleksowo przeprowadzić przez cały proces inwestycyjny. Od pomocy w wyborze najbardziej optymalnej działki, przez jej podział, aż do spełnienia marzeń ustami Mitusia. 
+      </p>
       <Row className={styles["icon-container"]}>
         <Col className={styles["icon"]} onClick={() => navigate('/sell')} xs={12} md={4}>
           <FontAwesomeIcon icon={faHouseChimney} />

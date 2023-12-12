@@ -7,7 +7,7 @@ import { faBriefcase, faHandshake, faMapLocationDot } from '@fortawesome/free-so
 const AboutUs = () => {
   return (
     <Container className={styles["container"]}>
-      <h2>Co nas wyróżnia</h2>
+      <h2>Dlaczego my?</h2>
       <Row>
         <Col className={styles["about-container"]}>
         <div className={styles["icon-container"]}>

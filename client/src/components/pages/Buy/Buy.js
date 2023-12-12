@@ -1,9 +1,23 @@
-import { Container } from "react-bootstrap";
-import Offer from "../Offer/Offer";
+import { Container, Row } from "react-bootstrap";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import OfferMiniature from "../../features/OfferMiniature/OfferMiniature";
+import { uploadOffers, offersList } from "../../../redux/offersReducer";
 
 const Buy = () => {
+  const dispatch = useDispatch();
+  const offers = useSelector(offersList);
+
+  useEffect(() => {
+    dispatch(uploadOffers());
+  }, [dispatch]);
+
   return (
-    <h2>Buy</h2>
+    <Container>
+      <Row>
+        { offers.map(offer => <OfferMiniature key={offer.id} {...offer} />) }
+      </Row>
+    </Container>
   )
 }
 

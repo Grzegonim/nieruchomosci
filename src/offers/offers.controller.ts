@@ -15,6 +15,14 @@ export class OffersController {
     return this.offersService.getAll();
   }
 
+  @Get('/search')
+  async getByParams(@Body() searchParams: any): Promise<Offer[]> {
+    const { priceMin, priceMax, floorMin, floorMax, roomsMin, roomsMax, surfaceMin, surfaceMax, location } = searchParams
+    const offers = await this.offersService.getByParams( priceMin, priceMax, floorMin, floorMax, roomsMin, roomsMax, surfaceMin, surfaceMax, location );
+    if (offers.length === 0) throw new NotFoundException('Offers not found');
+    return offers;
+  }
+
   @Get('/:id')
   async getById(@Param('id') id: string) {
     const offer = await this.offersService.getById(id);
