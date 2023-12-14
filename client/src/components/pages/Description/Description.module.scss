@@ -12,6 +12,22 @@
     padding: 0 10px;
   }
 
+  .description-container {
+    display: flex;
+
+    .photo {
+      width: 40%;
+
+      img {
+        object-fit: cover;
+      }
+    }
+    .description {
+      margin: auto 0;
+      width: 60%;
+    }
+  }
+
   .icon-container {
     div {
       display: flex;
