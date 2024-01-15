@@ -19,17 +19,17 @@ const NavBar = () => {
               <NavDropdown.Item as={NavLink} to="/offer">
                 Kompleksowa obsługa inwestycji
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/offer">
+              <NavDropdown.Item as={NavLink} to="/">
                 Sesja fotograficzna dronem
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/offer">
+              <NavDropdown.Item as={NavLink} to="/tour">
                 Wirtualny spacer
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
+              <NavDropdown.Item href="/offe">
                 Marketing w social media
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action4">
+              <NavDropdown.Item href="#/off">
                 Zarządzanie nieruchomościami
               </NavDropdown.Item>
             </NavDropdown>

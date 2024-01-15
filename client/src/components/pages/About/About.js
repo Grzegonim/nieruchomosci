@@ -16,8 +16,7 @@ const About = () => {
           <div>
             <h3>Licencjonowani Pośrednicy</h3>
             <p>
-              Nisi do irure ipsum duis et enim incididunt est. Ipsum elit reprehenderit culpa occaecat labore in.
-              Id eu exercitation laboris culpa id magna magna non qui aliqua ipsum sit in.
+            Posiadamy licencje pośredników w obrocie nieruchomościami numer, numer. Codziennie aktualizujemy wiedzę nie tylko z zakresu obrotu nieruchomości, ale również z przepisów szeroko pojętego prawa budowlanego oraz podatkowego. W ten sposób możemy spełnić oczekiwania nawet najbardziej wymagającego klienta.
             </p>
           </div>
         </Col>
@@ -36,8 +35,7 @@ const About = () => {
           <div>
             <h3>Bezpieczeństwo</h3>
             <p>
-              Nisi do irure ipsum duis et enim incididunt est. Ipsum elit reprehenderit culpa occaecat labore in.
-              Id eu exercitation laboris culpa id magna magna non qui aliqua ipsum sit in.
+              Rozumiemy, że bezpieczeństwo w przeprowadzaniu transakcji powinno być priorytetem. Każdego klienta traktujemy indywidualnie, zapewniając wsparcie na każdym etapie, tak, żeby we wszystkich etapach procesu inwestycyjnego mógł spać spokojnie. Dodatkowo, wszystkie prowadzone przez nas transakcje są objęte ubezpieczeniem.
             </p>
           </div>
         </Col>
@@ -46,8 +44,7 @@ const About = () => {
           <div>
             <h3>Oszczędność czasu</h3>
             <p>
-              Nisi do irure ipsum duis et enim incididunt est. Ipsum elit reprehenderit culpa occaecat labore in.
-              Id eu exercitation laboris culpa id magna magna non qui aliqua ipsum sit in.
+            W dzisiejszym świecie czas jest droższy od pieniędzy. Staramy się ograniczyć Państwa udział do minimum, maksymalizując przy tym bezpieczeństwo. Z nami zapomną Państwo o wizytach w urzędach, sądach oraz innych instytucjach, w których wizyta jest niezbędna w procesie obrotu nieruchomościami.
             </p>
           </div>
         </Col>

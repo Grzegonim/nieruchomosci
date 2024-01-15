@@ -14,8 +14,8 @@ const AboutUs = () => {
           <FontAwesomeIcon icon={faBriefcase} />
         </div>
           <div className={styles["description"]}>
-            <h3>Lorem Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu ligula, fermentum ut leo tincidunt, blandit sodales mi. Fusce volutpat, dui at aliquet laoreet, erat orci faucibus dui, id euismod diam urna ut leo.</p>
+            <h3>Formalności</h3>
+            <p>Wizyty w urzędach, sądach oraz innych instytucjach związanych z obsługą nieruchomości, z pewnością mogą przysporzyć wiele stresu. Dlatego wszystkie formalności spełnimy za Ciebie.</p>
           </div>
         </Col>
         <Col className={styles["about-container"]}>
@@ -23,8 +23,8 @@ const AboutUs = () => {
           <FontAwesomeIcon icon={faHandshake} />
         </div>
           <div className={styles["description"]}>
-            <h3>Lorem Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu ligula, fermentum ut leo tincidunt, blandit sodales mi. Fusce volutpat, dui at aliquet laoreet, erat orci faucibus dui, id euismod diam urna ut leo.</p>
+            <h3>Indywidualna Obsłga Klienta</h3>
+            <p>Wiemy jak ważna jest dla Państwa dyspozycyjność, dlatego telefon odbieramy nawet poza godzinami pracy biura. Jesteśmy w stanie dostosować się do waszego planu dnia.</p>
           </div>
         </Col>
         <Col className={styles["about-container"]}>
@@ -32,8 +32,8 @@ const AboutUs = () => {
             <FontAwesomeIcon icon={faMapLocationDot} />
           </div>
           <div className={styles["description"]}>
-            <h3>Lorem Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu ligula, fermentum ut leo tincidunt, blandit sodales mi. Fusce volutpat, dui at aliquet laoreet, erat orci faucibus dui, id euismod diam urna ut leo.</p>
+            <h3>Wszechstronność</h3>
+            <p>Z uwagi na nasze doświadczenie zawodowe jesteśmy na bieżąco z przepisami prawa. Posiadamy nowoczesny sprzęt, dzięki któremu możemy świadczyć nowoczesną usługę. Śledzimy również najnowsze trendy w social mediach.</p>
           </div>
         </Col>
       </Row>

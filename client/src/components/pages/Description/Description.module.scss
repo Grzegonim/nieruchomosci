@@ -36,6 +36,12 @@
       margin-top: 20px;
     } 
 
+    .description {
+      div {
+        justify-content: flex-start;
+        min-height: 135px;
+      }
+    }
     .icon {
       svg {
         color: #526D82;
