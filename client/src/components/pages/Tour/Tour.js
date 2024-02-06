@@ -10,7 +10,9 @@ const Tour = () => {
             <Col className={styles["header"]}>
                 <h2>Wirtualny spacer / Fotografia panormaiczna 360</h2>
             </Col>
-            <Image src={process.env.PUBLIC_URL + 'living-room-3539587_1280.jpg'} />
+            <Col className={styles["tour"]}>
+                <iframe src="https://sb360.online/i5uvyf" height="450" width="650" allow="microphone;fullscreen" allowfullscreen allowmicrophone ></iframe>
+            </Col>
             <Col>
                 <p>
                     Prezentujemy Państwu naszą nowoczesną usługę wirtualnego spaceru i fotografii 360.  W odróżnieniu od zwykłego zdjęcia pozwala spojrzeć na to samo wnętrze z innej perspektywy, dzięki czemu pozwoli uczynić prezentację Państwa nieruchomości jeszcze bardziej atrakcyjną i dostępną dla potencjalnych nabywców.

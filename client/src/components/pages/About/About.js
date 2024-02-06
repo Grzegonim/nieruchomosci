@@ -25,8 +25,8 @@ const About = () => {
           <div>
             <h3>Kompleksowa pomoc w zakupie nieruchomośći</h3>
             <p>
-              Nisi do irure ipsum duis et enim incididunt est. Ipsum elit reprehenderit culpa occaecat labore in.
-              Id eu exercitation laboris culpa id magna magna non qui aliqua ipsum sit in.
+              Nasze biuro oferuje kompleksową pomoc poczynając od od gruntownej analizy lokalizacji, uwzględniając zarówno aspekty rynkowe, jak i indywidualne preferencje klienta.
+              Sprawdzimy wybraną działkę również pod kątem prawnym, a także geodezyjnym. Ograniczymy do minimum udział w kompletowaniu dokumentacji oraz formalnościach.
             </p>
           </div>
         </Col>

@@ -1,6 +1,8 @@
+@import '../../../styles/global.scss';
+
 .contact-container {
   align-items: center;
-  background-color: rgb(153, 182, 204, 0.1);
+  background-color: $main-lightes;
   display: flex;
   height: 60px;
   font-size: 13px;
@@ -13,7 +15,7 @@
 
 
   svg {
-    color: rgb(82, 109, 130);
+    color: $main-dark;
     font-size: 30px;
   }
 

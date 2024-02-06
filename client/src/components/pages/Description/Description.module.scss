@@ -1,3 +1,5 @@
+@import '../../../styles/global.scss';
+
 .container {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -16,6 +18,14 @@
     display: flex;
 
     .photo {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+      @media only screen and (max-width: 576px) {
+        display: none;
+      }
+      
       width: 40%;
 
       img {
@@ -25,6 +35,11 @@
     .description {
       margin: auto 0;
       width: 60%;
+
+      @media only screen and (max-width: 576px) {
+        width: 100%;
+      }
+
     }
   }
 
@@ -39,12 +54,12 @@
     .description {
       div {
         justify-content: flex-start;
-        min-height: 135px;
+        min-height: 150px;
       }
     }
     .icon {
       svg {
-        color: #526D82;
+        color: $main-darkest;
         font-size: 100px;
         transition: all 0.3s ease;
       }
